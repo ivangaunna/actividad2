@@ -1,0 +1,45 @@
+footer{
+	background: blanchedalmond;
+	text-align: center;
+	padding: 3rem;
+	width: 100%;
+}
+.centrar {
+	text-align: center;
+}
+main{
+	display: flex;
+	justify-content: center;
+}
+.fixed-top{
+	background: blanchedalmond;
+}
+h1{
+	padding: 2rem;
+}
+.toro{
+	padding: 2rem;
+}
+form{
+	padding-top: 5rem;
+}
+.contactoform{
+	width: 15rem;
+}
+.tarjetaa{
+	width: 100%;
+}
+.chicho{
+	padding-top: 4rem;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+	.tarjeta{
+		width:13rem;}
+    }
+
+@media only screen and (min-width: 1024px){
+    .tarjeta{width: 22rem;
+    	display: flex;
+    	justify-content: center;
+    }
+  }
